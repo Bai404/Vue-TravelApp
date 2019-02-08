@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# travel
 
 > A Vue.js project
 
