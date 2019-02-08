@@ -22,16 +22,16 @@ export default {
       },
       imgList: [
         {
-          id:"0001",
-          imgUrl: "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/e29e910fc244644f90fd941a009deb5f.jpg_750x200_f5ebe45e.jpg"
+          id: '0001',
+          imgUrl: 'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/e29e910fc244644f90fd941a009deb5f.jpg_750x200_f5ebe45e.jpg'
         },
         {
-          id:"0002",
-          imgUrl: "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/3921acb51460dc6fa9e3c7464fac5cbb.jpg_750x200_d992573a.jpg"
+          id: '0002',
+          imgUrl: 'http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/3921acb51460dc6fa9e3c7464fac5cbb.jpg_750x200_d992573a.jpg'
         },
         {
-          id:"0003",
-          imgUrl: "http://img1.qunarzz.com/piao/fusion/1811/29/2a6b77b6ff72402.jpg_750x200_d4cec568.jpg"
+          id: '0003',
+          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1811/29/2a6b77b6ff72402.jpg_750x200_d4cec568.jpg'
         }
       ]
     }
