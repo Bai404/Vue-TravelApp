@@ -4,7 +4,7 @@
         <span class="title-con">周末去哪儿</span>
       </div>
       <ul class="like-list">
-        <li class="like border-bottom" v-for="item of recommendList" :key="item.id">
+        <li class="like border-bottom" v-for="item of list" :key="item.id">
           <div class="img-wrapper">
             <img class="like-img" :src="item.imgUrl" alt="" />
           </div>
@@ -22,29 +22,8 @@
 
 export default {
   name: 'HomeWeekend',
-  data () {
-    return {
-      recommendList: [
-        {
-          id: '0001',
-          imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-          title: '京城周末撒欢',
-          desc: '在帝都过周末，不仅仅是城中游！'
-        }, {
-
-          id: '0002',
-          imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-          title: '京城周末撒欢',
-          desc: '在帝都过周末，不仅仅是城中游！'
-        }, {
-
-          id: '0003',
-          imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-          title: '京城周末撒欢',
-          desc: '在帝都过周末，不仅仅是城中游！'
-        }
-      ]
-    }
+  props: {
+    list: Array
   }
 }
 </script>

@@ -5,7 +5,7 @@
         <span class="title-con">猜你喜欢</span>
       </div>
       <ul class="like-list">
-        <li class="like border-bottom" v-for="item of recommendList" :key="item.id">
+        <li class="like border-bottom" v-for="item of list" :key="item.id">
           <img class="like-img" :src="item.imgUrl" alt="" />
           <div class="like-info">
             <div class="like-title">{{item.title}}</div>
@@ -21,26 +21,8 @@
 
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [
-        {
-          id: '0001',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-          title: '故宫'
-        }, {
-
-          id: '0002',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-          title: '故宫'
-        }, {
-
-          id: '0003',
-          imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-          title: '故宫'
-        }
-      ]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
