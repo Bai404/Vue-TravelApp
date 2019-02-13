@@ -16,12 +16,12 @@ import HomeRecommend from './components/Recommend'
 import HomeWeekend from './components/weekend.vue'
 import axios from 'axios'
 import {mapState} from 'vuex'
+
 export default {
   name: 'Home',
   data () {
     return {
       lastCity: '',
-      city: '',
       swiperList: [],
       iconList: [],
       recommendList: [],

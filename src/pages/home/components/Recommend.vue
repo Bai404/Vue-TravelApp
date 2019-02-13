@@ -5,14 +5,14 @@
         <span class="title-con">猜你喜欢</span>
       </div>
       <ul class="like-list">
-        <li class="like border-bottom" v-for="item of list" :key="item.id">
+        <router-link tag="li" :to="'/detail/' + item.id" class="like border-bottom" v-for="item of list" :key="item.id">
           <img class="like-img" :src="item.imgUrl" alt="" />
           <div class="like-info">
             <div class="like-title">{{item.title}}</div>
             <div class="like-comment"></div>
             <div class="like-desc"></div>
           </div>
-        </li>
+        </router-link>
       </ul>
     </div>
 </template>
