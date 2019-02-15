@@ -5,8 +5,12 @@
 
 
 vue2 + vuex + vue-router + webpack + ES6/7+stylus
-## Build Setup
+
+## 项目运行
+
 ``` bash
+git clone hgit@github.com:Bai404/Vue-DemoApp.git
+
 # install dependencies
 npm install
 
