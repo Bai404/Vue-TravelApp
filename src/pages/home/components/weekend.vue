@@ -1,7 +1,7 @@
 <template>
     <div>
       <div class="title">
-        <span class="title-con">周末去哪儿</span>
+        <span class="title-con">周末出游</span>
       </div>
       <ul class="like-list">
         <li class="like border-bottom" v-for="item of list" :key="item.id">
