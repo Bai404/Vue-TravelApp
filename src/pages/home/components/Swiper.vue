@@ -1,14 +1,9 @@
 <template>
-  <div class="wrapper">
-    <swiper :options="swiperOption" v-if="showSwiper">
-        <!-- slides -->
-        <swiper-slide v-for="item of list" :key="item.id">
-          <img class="swiper-img" :src="item.imgUrl">
-        </swiper-slide>
-        <!-- Optional controls -->
-        <div class="swiper-pagination"  slot="pagination"></div>
-    </swiper>
-  </div>
+  <el-carousel :interval="5000" arrow="always" height="4.2rem">
+    <el-carousel-item v-for="item of list" :key="item.id">
+      <img class="swiper-img" :src="item.imgUrl">
+    </el-carousel-item>
+  </el-carousel>
 </template>
 
 <script>
@@ -37,7 +32,7 @@ export default {
 <style lang="stylus" scoped>
   .wrapper >>> .swiper-pagination-bullet-active
     background: #fff
-  .wrapper
+  .el-carousel
     width: 100%
     height: 0
     overflow: hidden

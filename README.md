@@ -4,7 +4,7 @@
 ## 技术栈
 
 
-vue2 + vuex + vue-router + webpack + ES6/7+stylus
+vue2 + vuex + vue-router + webpack + element-ui + ES6/7+stylus
 
 ## 项目运行
 
